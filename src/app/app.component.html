@@ -1,0 +1,13 @@
+<h1>Rxjs Subject Example</h1>
+
+<h1>Username with Subject</h1>
+<input type="text" [(ngModel)]="userName">
+<button type="submit" (click)="changeUserName()">Change name</button>
+
+<h1>Username without Subject</h1>
+<p>
+  <input type="text" [(ngModel)]="userNameRegular">
+  <button type="submit" (click)="changeUserNameRegular()">Change name</button>
+</p>
+
+<router-outlet></router-outlet>
